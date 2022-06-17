@@ -1,0 +1,37 @@
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../public/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  max-width: 100%;
+
+  &__image {
+    max-width: inherit;
+    position: relative;
+
+  }
+
+  &__greeting {
+      width: 100%;
+      position: absolute;
+      z-index: 10;
+      top: 25%;
+      color: #FFF;
+      text-align: center;
+
+      h1 {
+          font-size: 3rem;
+      }
+
+      h2 {
+          font-size: 1.8rem;
+          font-weight: 500;
+      }
+
+      h3 {
+          font-size: 1.5rem;
+          font-weight: 500;
+      }
+  }
+}

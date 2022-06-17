@@ -1,0 +1,29 @@
+.footer {
+    background-color: #000;
+    color: #FFF;
+
+    &__wrapper {
+        height: 450px;
+        display: flex;
+        justify-content: space-around;
+
+
+        &__menu, &__support {
+            margin-top: 5%;
+            ul {
+                padding-inline-start: 1rem;
+                font-size: 14px;
+            }
+        }
+    }
+
+    &__icon {
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        svg {
+            margin-left: 1rem;
+        }
+    }
+}
